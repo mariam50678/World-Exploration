@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Choose a language to learn greetings"
+        android:textColor="#040562"
+        android:textSize="30sp"
+
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/btnArabic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/M"
+        android:text="عربي"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/btnEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/G"
+        android:text="English" />
+
+
+    <Button
+        android:id="@+id/btnJapanese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/BLUE"
+        android:text="Japan" />
+
+
+    <Button
+        android:id="@+id/btnFrench"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/v"
+        android:text="Français" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/btnBackGreetings"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="#B7D8F4"
+            android:text="Back"
+            android:textColor="#050661" />
+
+        <Button
+            android:id="@+id/btnNextGreetings"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_weight="1"
+            android:background="#B6D6F2"
+            android:text="Next"
+            android:textColor="#040561" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="What is the capital of Italy ?"
+        android:textColor="#040562"
+        android:textSize="28sp"
+        android:textStyle="bold|italic" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="345dp"
+        android:layout_height="152dp">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="87dp"
+            android:layout_height="58dp"
+            android:text="Paris" />
+
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="88dp"
+            android:layout_height="48dp"
+            android:text="Rome" />
+
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="90dp"
+            android:layout_height="46dp"
+            android:text="Madrid" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="198dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="30dp"
+        android:background="#B9D9F4"
+        android:text="Verify"
+        android:textColor="#030461" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+
+        <Button
+            android:id="@+id/btnBackQuiz"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="#B7D8F4"
+            android:text="Back"
+            android:textColor="#050661" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+
+        <Button
+            android:id="@+id/btnBackcountrydetail"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="#B7D8F4"
+            android:text="Back"
+            android:textColor="#050661" />
+
+        <Button
+            android:id="@+id/btnNextcountrydetail"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_weight="1"
+            android:background="#B6D6F2"
+            android:text="Next"
+            android:textColor="#040561" />
+    </LinearLayout>
+
+
+</LinearLayout>

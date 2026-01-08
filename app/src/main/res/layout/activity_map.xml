@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+    <TextView
+        android:id="@+id/txtTitleMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_marginTop="105dp"
+        android:paddingBottom="10dp"
+        android:text="Continents of the world"
+        android:textColor="#040561"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+
+        />
+
+    <LinearLayout
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+        <Button
+            android:id="@+id/btnAsia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="#B9D9F4"
+            android:text="Asia"
+            android:textColor="#020350" />
+
+        <Button
+            android:id="@+id/btnAfrica"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="#BBDBF8"
+            android:text="Africa"
+            android:textColor="#03045F" />
+
+        <Button
+            android:id="@+id/btnEurope"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="2dp"
+            android:layout_weight="1"
+            android:background="#B9D9F4"
+            android:text="Europe"
+            android:textColor="#03045D" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imgMap"
+        android:layout_width="match_parent"
+        android:layout_height="397dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/map"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+
+        <Button
+            android:id="@+id/btnBackmap"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="#B7D8F4"
+            android:text="Back"
+            android:textColor="#050661" />
+
+        <Button
+            android:id="@+id/btnNextmap"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_weight="1"
+            android:background="#B6D6F2"
+            android:text="Next"
+            android:textColor="#040561" />
+    </LinearLayout>
+
+</LinearLayout>
