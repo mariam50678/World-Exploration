@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -8,7 +9,7 @@
     android:orientation="vertical"
     android:padding="24dp">
 
-
+    <!-- Container for the application splash screen image -->
     <LinearLayout
         android:layout_width="386dp"
         android:layout_height="511dp"
@@ -16,6 +17,7 @@
         android:gravity="center"
         android:orientation="vertical">
 
+        <!-- Display the application splash screen image -->
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
@@ -23,7 +25,7 @@
             app:srcCompat="@drawable/img_2" />
     </LinearLayout>
 
-
+    <!-- Display the application name -->
     <TextView
         android:id="@+id/tvAppName"
         android:layout_width="352dp"
@@ -34,6 +36,7 @@
         android:textSize="50sp"
         android:textStyle="bold|italic" />
 
+    <!-- Display the copyright notice -->
     <TextView
         android:id="@+id/tvCredits"
         android:layout_width="wrap_content"
