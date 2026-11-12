@@ -8,6 +8,12 @@ World Exploration is an Android app that helps users learn about different count
 - Greetings and facts about countries
 - Map-based navigation
 
+## Project Demo
+
+Watch the application demo video:
+
+[World Exploration Demo](<project Android astdiuo.mp4>)
+
 To open and run the project:
 1. **Open Android Studio**.
 
