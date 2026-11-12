@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -6,8 +7,7 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-
-
+    <!-- Display the map screen title -->
     <TextView
         android:id="@+id/txtTitleMap"
         android:layout_width="wrap_content"
@@ -18,10 +18,9 @@
         android:text="Continents of the world"
         android:textColor="#040561"
         android:textSize="30sp"
-        android:textStyle="bold|italic"
+        android:textStyle="bold|italic" />
 
-        />
-
+    <!-- Container for continent selection buttons -->
     <LinearLayout
         android:layout_width="383dp"
         android:layout_height="wrap_content"
@@ -29,6 +28,7 @@
         android:orientation="horizontal"
         android:paddingTop="20dp">
 
+        <!-- Button to select Asia -->
         <Button
             android:id="@+id/btnAsia"
             android:layout_width="0dp"
@@ -39,6 +39,7 @@
             android:text="Asia"
             android:textColor="#020350" />
 
+        <!-- Button to select Africa -->
         <Button
             android:id="@+id/btnAfrica"
             android:layout_width="0dp"
@@ -49,6 +50,7 @@
             android:text="Africa"
             android:textColor="#03045F" />
 
+        <!-- Button to select Europe -->
         <Button
             android:id="@+id/btnEurope"
             android:layout_width="1dp"
@@ -60,19 +62,17 @@
             android:text="Europe"
             android:textColor="#03045D" />
 
-
     </LinearLayout>
 
-
+    <!-- Display the world map image -->
     <ImageView
         android:id="@+id/imgMap"
         android:layout_width="match_parent"
         android:layout_height="397dp"
         android:scaleType="fitCenter"
-        android:src="@drawable/map"
+        android:src="@drawable/map" />
 
-        />
-
+    <!-- Container for bottom navigation buttons -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -81,7 +81,7 @@
         android:orientation="horizontal"
         android:paddingTop="10dp">
 
-
+        <!-- Return to the previous screen -->
         <Button
             android:id="@+id/btnBackmap"
             android:layout_width="0dp"
@@ -92,6 +92,7 @@
             android:text="Back"
             android:textColor="#050661" />
 
+        <!-- Navigate to the next screen -->
         <Button
             android:id="@+id/btnNextmap"
             android:layout_width="0dp"
@@ -100,6 +101,7 @@
             android:background="#B6D6F2"
             android:text="Next"
             android:textColor="#040561" />
+
     </LinearLayout>
 
 </LinearLayout>
